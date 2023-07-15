@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/MovieMeter/static/js/main.113177e0.js",
+    "static/js/787.6e354c4d.chunk.js": "/MovieMeter/static/js/787.6e354c4d.chunk.js",
+    "service-worker.js": "/MovieMeter/service-worker.js",
+    "index.html": "/MovieMeter/index.html",
+    "main.113177e0.js.map": "/MovieMeter/static/js/main.113177e0.js.map",
+    "787.6e354c4d.chunk.js.map": "/MovieMeter/static/js/787.6e354c4d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.113177e0.js"
+  ]
+}
