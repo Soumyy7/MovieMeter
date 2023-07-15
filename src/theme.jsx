@@ -1,11 +1,15 @@
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
 
 const theme = {
-  fontFamily: 'Roboto, sans-serif',
+  fontFamily: 'Bebas Neue, sans-serif',
   mainColors: {
-    blue: '#2400ff',
-    gray: '#c6c6c6',
-    dark: '#353535',
+    blue: '#fff5d7',
+    gray: '#ff5e6c',
+    dark: '#feb300',
+    Tan: '#e1b382',
+    Shadow: '#c89666',
+    DeepBlue: '#2d545e',
+    BlueShadow: '#12343b',
   },
 };
 
@@ -17,6 +21,7 @@ const GlobalStyles = createGlobalStyle`
     padding-top: 40px;
     padding-left: 15px;
     padding-right: 15px;
+    background-color: #2d545e;
   }
 `;
 

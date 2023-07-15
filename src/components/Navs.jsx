@@ -44,9 +44,10 @@ const LinkStyled = styled(NavLink)`
   padding: 3px 15px;
   position: relative;
   text-decoration: none;
-  color: ${({ theme }) => theme.mainColors.gray};
+  font-size: 150%;
+  color: ${({ theme }) => '#ff5e6c'};
   &.active {
-    color: ${({ theme }) => theme.mainColors.blue};
+    color: ${({ theme }) => '#9bc400'};
     &:after {
       content: '';
       position: absolute;
@@ -54,7 +55,7 @@ const LinkStyled = styled(NavLink)`
       height: 2px;
       left: 0%;
       bottom: 0;
-      background-color: ${({ theme }) => theme.mainColors.blue};
+      background-color: ${({ theme }) => '#9bc400'};
       animation: slide-in 0.3s ease-in forwards;
       @keyframes slide-in {
         from {

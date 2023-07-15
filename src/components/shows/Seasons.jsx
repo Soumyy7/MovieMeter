@@ -42,6 +42,7 @@ const SeasonsWrapper = styled.div`
 const SeasonList = styled.div`
   display: flex;
   flex-direction: column;
+  color: #c7af6b;
   .season-item {
     display: flex;
     align-items: center;

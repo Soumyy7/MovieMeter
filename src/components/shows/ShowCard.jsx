@@ -55,11 +55,13 @@ const ActionSection = styled.div`
   justify-content: space-between;
   align-items: center;
   a {
-    text-decoration-color: #000;
-    color: #000;
+    text-decoration-color: #8076a3;
+    color: #8076a3;
+    font-size: 125%;
     &:hover {
-      text-decoration-color: blue;
-      color: blue;
+      text-decoration-color: #feb300;
+      color: #feb300;
+      font-size: 1.2em;
     }
   }
 `;
@@ -69,7 +71,7 @@ const StarBtn = styled.button`
   border: 1px solid #8e8e8e;
   border-radius: 15px;
   padding: 5px 20px;
-  background-color: #fff;
+  background-color: #8076a3;
   display: flex;
   justify-content: center;
   align-items: center;

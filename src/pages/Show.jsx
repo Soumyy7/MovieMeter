@@ -24,7 +24,7 @@ const Show = () => {
     return (
       <ShowPageWrapper>
         <BackHomeWrapper>
-          <Link to="/">Go back to home</Link>
+          <Link to="/">|| Go back to home ||</Link>
         </BackHomeWrapper>
 
         <ShowMainData
@@ -63,14 +63,16 @@ const Show = () => {
 export default Show;
 
 const BackHomeWrapper = styled.div`
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   text-align: left;
   a {
     padding: 10px;
-    color: ${({ theme }) => theme.mainColors.dark};
+    color: ${() => '#feb300'};
     text-decoration: none;
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
+      font-size: 1.2em;
+      color: #ff414e;
     }
   }
 `;

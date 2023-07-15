@@ -13,13 +13,18 @@ const CustomRadio = ({ label, ...inputProps }) => {
 export default CustomRadio;
 
 const StyledRadio = styled.label`
+  font-family:
+    Courier New,
+    monospace;
   display: block;
   position: relative;
   padding-left: 25px;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 15px;
+  font-color: #5252d4;
   user-select: none;
   font-weight: 700;
+  color: #feb300;
   line-height: 1.65;
   input {
     position: absolute;
@@ -33,12 +38,12 @@ const StyledRadio = styled.label`
     height: 16px;
     width: 16px;
     background-color: #fff;
-    border: 2px solid ${({ theme }) => theme.mainColors.blue};
+    border: 2px solid ${() => '#c89666'};
     border-radius: 50%;
   }
   input:checked ~ span {
     background-color: #fff;
-    border: 2px solid ${({ theme }) => theme.mainColors.blue};
+    border: 2px solid ${() => '#e1b382'};
   }
   span:after {
     content: '';
@@ -54,6 +59,6 @@ const StyledRadio = styled.label`
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: ${({ theme }) => theme.mainColors.blue};
+    background: ${() => '#e1b382'};
   }
 `;

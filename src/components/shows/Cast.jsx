@@ -26,6 +26,7 @@ const CastList = styled.div`
   flex-wrap: wrap;
   .cast-item {
     flex: 1 0 50%;
+    color: #dcc7aa;
     display: flex;
     margin-bottom: 20px;
     align-items: center;

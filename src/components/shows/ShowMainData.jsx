@@ -61,6 +61,7 @@ const MainDataWrapper = styled.div`
 const DataSection = styled.div`
   margin-left: 20px;
   flex: 1;
+  color: #feb300;
   @media only screen and (max-width: 768px) {
     margin-left: 0;
     margin-top: 20px;
@@ -71,6 +72,7 @@ const Headline = styled.div`
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  color: #feb300;
   h1 {
     margin: 0;
     border-right: 1px solid #ddd;
@@ -87,18 +89,19 @@ const Headline = styled.div`
 `;
 
 const Summary = styled.div`
-  color: #5f5f5f;
+  color: #dcc7aa;
   line-height: 1.5;
 `;
 
 const Genres = styled.div`
   display: inline-flex;
   flex-wrap: wrap;
+  font-size: 1.2em;
   span {
     margin: 6px;
     margin-bottom: 0;
-    color: blue;
-    background-color: #d0c9ff;
+    color: #feb300;
+    background-color: #a28089;
     padding: 3px 13px;
     border-radius: 20px;
     font-size: 14px;
